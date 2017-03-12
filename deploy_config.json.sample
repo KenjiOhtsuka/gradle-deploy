@@ -1,0 +1,20 @@
+{
+  "hosts" : [
+    {
+        "host": "12.34.78.10",
+        "role": "production"
+    },
+    {
+        "host": "12.34.56.78",
+        "role": "development"
+    }
+  ],
+  "port" : 22,
+  "user" : "ec2-user",
+  "key" : "/describe/absolute/path",
+  "pass_phrase" : "something",
+  "git" : {
+    "user_name" : "Your_Name",
+    "password" : "password"
+  }
+}
